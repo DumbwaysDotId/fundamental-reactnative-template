@@ -1,12 +1,12 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { View, Text } from "react-native";
+import { View } from "react-native";
 
-export default function List(props) {
+export default function List() {
   return (
     <View>
       <StatusBar />
-      <Text>{props.listData}</Text>
+      {/* Code Here */}
     </View>
   );
 }
