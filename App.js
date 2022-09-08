@@ -3,14 +3,12 @@ import React from "react";
 import { View } from "react-native";
 
 //Import Screen
-import EmbedExpression from "./src/screens/EmbedExpression";
 
 export default function App() {
   return (
-    <View style={{ marginTop: 200 }}>
+    <View>
       <StatusBar />
       {/* Use Component */}
-      <EmbedExpression />
     </View>
   );
 }
