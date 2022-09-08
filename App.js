@@ -3,13 +3,12 @@ import React from "react";
 import { View } from "react-native";
 
 //Import Screen
-import Event from "./src/screens/Event";
 
 export default function App() {
   return (
-    <View style={{ marginTop: 200 }}>
+    <View>
       <StatusBar />
-      <Event />
+      {/* Use Component */}
     </View>
   );
 }
