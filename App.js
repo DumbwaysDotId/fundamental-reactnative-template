@@ -3,13 +3,12 @@ import React from "react";
 import { View } from "react-native";
 
 //Import Screen
-import State from "./src/screens/State";
 
 export default function App() {
   return (
-    <View style={{ marginTop: 200 }}>
+    <View>
       <StatusBar />
-      <State />
+      {/* Use Component */}
     </View>
   );
 }
