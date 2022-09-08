@@ -1,27 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
-import { View, FlatList, Text } from "react-native";
+import { View } from "react-native";
+
 export default function List() {
+  // Make Dummy Data with Array
   return (
     <View>
       <StatusBar />
-      <Text>This is List On React</Text>
       {/* Code Here */}
-      <FlatList
-        data={[
-          {
-            name: "Iruham Sama",
-          },
-          {
-            name: "Jody Sama",
-          },
-          {
-            name: "Fadhil Sama",
-          },
-        ]}
-        renderItem={({ item }) => <Text>{item.name}</Text>}
-        keyExtractor={(item) => item.name}
-      />
     </View>
   );
 }
